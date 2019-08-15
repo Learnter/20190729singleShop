@@ -7,10 +7,17 @@
         </view>
         <view class="person_account">
            <text>账号&nbsp;:&nbsp;123456789</text>
-           <text class="person_edit">
+           <view class="person_edit">
              昵称&nbsp;:&nbsp;一叶知秋
             <image src="/static/image/center/2019sc_45.png" class="editIcon"></image>
-           </text>
+           </view>
+        </view>
+        <view class="setup">
+          <image src="/static/image/center/2019sc_46.png"></image>
+        </view>
+        <view class="message">
+          <image src="/static/image/center/2019sc_47.png" ></image>
+          <uni-badge text="1" type="error" size="small" class="ms_badge" />
         </view>
       </view> 
       <view class="vip_card">
@@ -43,19 +50,31 @@
       
       <view class="order-section">
       	<view class="order-item" @click="navTo('/pages/order/order?state=0')" hover-class="common-hover"  :hover-stay-time="50">
-      		<image src="/static/image/center/2019sc_50.png" class="icon_size"></image>
+          <view class="order-item-icon">
+            <image src="/static/image/center/2019sc_50.png" class="icon_size"></image>
+            <uni-badge text="1" type="error" size="small" class="or_badge" />
+          </view>
       		<text>待付款</text>
       	</view>
       	<view class="order-item" @click="navTo('/pages/order/order?state=1')"  hover-class="common-hover" :hover-stay-time="50">
-      		<image src="/static/image/center/2019sc_51.png" class="icon_size"></image>
+      		 <view class="order-item-icon">
+      		  <image src="/static/image/center/2019sc_51.png" class="icon_size"></image>
+      		  <uni-badge text="123" type="error" size="small" class="or_badge" />
+      		</view>
       		<text>待发货</text>
       	</view>
       	<view class="order-item" @click="navTo('/pages/order/order?state=2')" hover-class="common-hover"  :hover-stay-time="50">
-      		<image src="/static/image/center/2019sc_52.png" class="icon_size"></image>
+      		 <view class="order-item-icon">
+      		  <image src="/static/image/center/2019sc_52.png" class="icon_size"></image>
+      		  <uni-badge text="1" type="error" size="small" class="or_badge" />
+      		</view>
       		<text>待收货</text>
       	</view>
       	<view class="order-item" @click="navTo('/pages/order/order?state=4')" hover-class="common-hover"  :hover-stay-time="50">
-      		<image src="/static/image/center/2019sc_53.png" class="icon_size"></image>
+      	 <view class="order-item-icon">
+      	  <image src="/static/image/center/2019sc_53.png" class="icon_size"></image>
+      	  <uni-badge text="1" type="error" size="small" class="or_badge" />
+      	</view>
       		<text>待评价</text>
       	</view>
       </view>
@@ -74,8 +93,9 @@
 </template>
 
 <script>
-  import uniList from '@/components/uni-list/uni-list.vue'
-  import uniListItem from '@/components/uni-list-item/uni-list-item.vue'
+  import uniList from '@/components/uni-list/uni-list.vue';
+  import uniListItem from '@/components/uni-list-item/uni-list-item.vue';
+  import uniBadge from '@/components/uni-badge/uni-badge.vue'
 	export default {
     name:"personCenter",
 		data() {
@@ -85,7 +105,8 @@
 		},
     components: {
     	uniList,
-    	uniListItem
+    	uniListItem,
+      uniBadge
     }
 	}
 </script>
@@ -125,6 +146,26 @@
     .person_info{
       height:160rpx;
       padding:20rpx 0;
+      position:relative;
+      .setup{
+        position:absolute;
+        right:0;
+        top:0;
+        width:44rpx;
+        height:44rpx;
+      }
+      .message{
+        position:absolute;
+        right:0;
+        top:104rpx;
+        width:44rpx;
+        height:44rpx;
+        .ms_badge{
+          position:absolute;
+          right:-6rpx;
+          bottom:50%;
+        }
+      }
       .person_img{
         width:140rpx;
         height:140rpx;
@@ -144,6 +185,7 @@
         letter-spacing:2rpx;
         .person_edit{
           position:relative;
+          font-size:32rpx;
           .editIcon{
             width:36rpx;
             height:36rpx;
@@ -196,7 +238,7 @@
       border:1px solid #EBEBED;
       border-radius:10rpx;
       justify-content:space-around;
-       align-items:center;
+      align-items:center;
     }
     .order-section{
     	@extend %section;
@@ -208,11 +250,18 @@
     		width: 120rpx;
     		height: 120rpx;
     		border-radius: 10rpx;
+        .order-item-icon{
+          position:relative;
+          .or_badge{
+            position:absolute;
+            right:-40%;
+            top:-20rpx;
+          }
+        }
     	}
     }
   }
-  
-    
+
   .settingBox{
     padding:20rpx;
     .uni-list{

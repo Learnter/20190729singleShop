@@ -76,6 +76,26 @@
 .personBox .person_info {
     height: 160rpx;
     padding: 20rpx 0;
+    position: relative;
+}
+.personBox .person_info .setup {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 44rpx;
+      height: 44rpx;
+}
+.personBox .person_info .message {
+      position: absolute;
+      right: 0;
+      top: 104rpx;
+      width: 44rpx;
+      height: 44rpx;
+}
+.personBox .person_info .message .ms_badge {
+        position: absolute;
+        right: -6rpx;
+        bottom: 50%;
 }
 .personBox .person_info .person_img {
       width: 140rpx;
@@ -113,6 +133,7 @@
 }
 .personBox .person_info .person_account .person_edit {
         position: relative;
+        font-size: 32rpx;
 }
 .personBox .person_info .person_account .person_edit .editIcon {
           width: 36rpx;
@@ -184,6 +205,14 @@
       width: 120rpx;
       height: 120rpx;
       border-radius: 10rpx;
+}
+.personContent .order-section .order-item .order-item-icon {
+        position: relative;
+}
+.personContent .order-section .order-item .order-item-icon .or_badge {
+          position: absolute;
+          right: -40%;
+          top: -20rpx;
 }
 .settingBox {
   padding: 20rpx;

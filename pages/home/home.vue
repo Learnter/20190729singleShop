@@ -1,14 +1,9 @@
 <template>
 	<view>
-    <uni-nav-bar :fixed="false" color="#333333" background-color="#FFFFFF" left-icon="scan" right-icon="chat" @click-left="scan" @click-right="message">
-    	<view class="input-view">
-    		<uni-icon type="search" size="22" color="#666666" />
-    		<input confirm-type="search" class="input" type="text" placeholder="输入搜索关键词" @confirm="confirm" />
-    	</view>
-    </uni-nav-bar>
     
-    <wuc-tab :tab-list="tabList" :tabCur.sync="TabCur" @change="tabChange" selectClass="selectNav"></wuc-tab>
-    
+    <search-bar></search-bar> 
+      
+    <wuc-tab :tab-list="tabList" :tabCur.sync="TabCur" @change="tabChange" selectClass="selectNav"></wuc-tab>  
      <!-- 轮播图-->
       <uni-swiper-dot class="bannerBox" :info="swiperInfo" :current="current" :mode="mode" :dots-styles="dotsStyles">
         <swiper class="swiper-box" @change="toggleSwiper" :autoplay="autoplay" circular="true">
@@ -113,10 +108,10 @@
 </template>
 
 <script>
-  import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue";
   import uniIcon from "@/components/uni-icon/uni-icon.vue";
   import WucTab from '@/components/wuc-tab/wuc-tab.vue';
   import uniSwiperDot from "@/components/uni-swiper-dot/uni-swiper-dot.vue";
+  import searchBar from "@/components/search-bar.vue";
 	export default {
 		data() {
 			return {
@@ -164,7 +159,7 @@
         
       }
     },
-    components: {uniNavBar,uniIcon,WucTab,uniSwiperDot}
+    components: {uniIcon,WucTab,uniSwiperDot,searchBar}
 	}
 </script>
 
@@ -176,13 +171,13 @@
   // 	background-color: #fff
   // }
   // 
-  /deep/.uni-navbar__header{
-    padding:0 16rpx;
-    box-sizing:border-box;
-  }
-  /deep/.uni-navbar__header-btns{
-    width:auto;
-  }
+  // /deep/.uni-navbar__header{
+  //   padding:0 16rpx;
+  //   box-sizing:border-box;
+  // }
+  // /deep/.uni-navbar__header-btns{
+  //   width:auto;
+  // }
   .input-view {
   	display: flex;
   	background-color: #e7e7e7;
@@ -387,6 +382,4 @@
         }
       }
     }
-      
-  
 </style>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/personCenter/ownInfo/ownInfo",
     "pages/home/home",
     "pages/catergory/catergory",
     "pages/shoppingCart/shoppingCart",
