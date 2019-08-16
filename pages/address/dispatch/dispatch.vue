@@ -4,7 +4,7 @@
 		  <uni-nav-bar left-icon="back" title="配送地址" @click-left="back" @click-right="add" right-icon="plus-filled"/>
 		<!-- #endif -->
     <view class="addressBox">
-       <view class="ad_item uni-flex" v-for="(item,index) in 10" :key="index">
+       <view class="ad_item uni-flex" v-for="(item,index) in 4" :key="index">
          <view class="ad_icon">
            <image src="/static/image/address/2019sc_96.png" mode=""></image>
          </view>
