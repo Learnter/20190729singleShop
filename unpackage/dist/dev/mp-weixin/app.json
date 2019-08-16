@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/address/dispatch/dispatch",
+    "pages/personCenter/insertAddress/insertAddress",
+    "pages/personCenter/notification/notification",
     "pages/personCenter/ownInfo/ownInfo",
     "pages/home/home",
     "pages/catergory/catergory",

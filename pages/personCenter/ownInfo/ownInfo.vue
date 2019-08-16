@@ -1,6 +1,9 @@
 <template>
 	<view>
-    <uni-nav-bar left-icon="back" title="个人信息" @click-left="back" />
+    <!-- #ifdef APP-PLUS | H5-->
+      <uni-nav-bar left-icon="back" title="个人信息" @click-left="back" />
+    <!-- #endif -->
+    
     <form @submit="formSubmit">
         <view class="uni-form-item uni-flex">
             <text class="title">账号</text>
@@ -23,8 +26,7 @@
         <view class="uni-form-item">
           <button type="primary" formType="submit" class="submitBtn" >提交</button>
         </view>
-    </form>
-		
+    </form>	
 	</view>
 </template>
 
@@ -32,6 +34,7 @@
   import uniNavBar from '@/components/uni-nav-bar/uni-nav-bar.vue'
   import uniIcon from '@/components/uni-icon/uni-icon.vue'
 	export default {
+    name:"ownInfo",
 		data() {
 			return {
 				ownerInfo:{

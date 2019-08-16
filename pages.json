@@ -1,5 +1,28 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+        "path" : "pages/address/dispatch/dispatch",
+        "style" : {}
+    },
+      {
+          "path" : "pages/personCenter/insertAddress/insertAddress",
+          "style" : {
+             "app-plus": { //去除app 头部导航栏
+              "titleNView": false
+            },
+            "navigationBarTitleText":"添加地址"
+          }
+      },
+      {
+            "path" : "pages/personCenter/notification/notification",
+            "style" : {
+                 "app-plus": { //去除app 头部导航栏
+                  "titleNView": false
+                },
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true
+            }
+        },
         {
             "path" : "pages/personCenter/ownInfo/ownInfo",
             "style" : {}
@@ -35,7 +58,8 @@
                 "titleNView": false
               }
             }
-        }
+        } 
+        
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
