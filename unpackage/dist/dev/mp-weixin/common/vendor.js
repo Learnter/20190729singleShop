@@ -1603,10 +1603,10 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 18:
-/*!*************************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Faddress%2Fdispatch%2Fdispatch"} ***!
-  \*************************************************************************************************************************/
+/***/ 105:
+/*!***********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FpersonCenter"} ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1614,8 +1614,25 @@ function normalizeComponent (
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _dispatch = _interopRequireDefault(__webpack_require__(/*! ./pages/address/dispatch/dispatch.vue */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_dispatch.default);
+var _personCenter = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/personCenter.vue */ 106));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_personCenter.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 18:
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FmemberCenter%2FmemberCenter"} ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _memberCenter = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/memberCenter/memberCenter.vue */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_memberCenter.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -7569,10 +7586,10 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 26:
-/*!****************************************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FinsertAddress%2FinsertAddress"} ***!
-  \****************************************************************************************************************************************/
+/***/ 24:
+/*!**************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2Finvite%2Finvite"} ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7580,8 +7597,8 @@ internalMixin(Vue);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _insertAddress = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/insertAddress/insertAddress.vue */ 27));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_insertAddress.default);
+var _invite = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/invite/invite.vue */ 25));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_invite.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -7617,10 +7634,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 34:
-/*!**************************************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2Fnotification%2Fnotification"} ***!
-  \**************************************************************************************************************************************/
+/***/ 32:
+/*!***********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Fcoupon%2Fcoupon"} ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7628,8 +7645,8 @@ module.exports = g;
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _notification = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/notification/notification.vue */ 35));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_notification.default);
+var _coupon = _interopRequireDefault(__webpack_require__(/*! ./pages/coupon/coupon.vue */ 33));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_coupon.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -7646,7 +7663,75 @@ createPage(_notification.default);
 
 /***/ }),
 
-/***/ 42:
+/***/ 40:
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Forder%2Forder"} ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _order = _interopRequireDefault(__webpack_require__(/*! ./pages/order/order.vue */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_order.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 48:
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Faddress%2Fdispatch%2Fdispatch"} ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _dispatch = _interopRequireDefault(__webpack_require__(/*! ./pages/address/dispatch/dispatch.vue */ 49));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_dispatch.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 56:
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FinsertAddress%2FinsertAddress"} ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _insertAddress = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/insertAddress/insertAddress.vue */ 57));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_insertAddress.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 64:
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2Fnotification%2Fnotification"} ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _notification = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/notification/notification.vue */ 65));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_notification.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 72:
 /*!****************************************************************************************************************************!*\
   !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FownInfo%2FownInfo"} ***!
   \****************************************************************************************************************************/
@@ -7657,13 +7742,13 @@ createPage(_notification.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _ownInfo = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/ownInfo/ownInfo.vue */ 43));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _ownInfo = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/ownInfo/ownInfo.vue */ 73));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_ownInfo.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
 
-/***/ 50:
+/***/ 80:
 /*!*******************************************************************************************************!*\
   !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
   \*******************************************************************************************************/
@@ -7674,13 +7759,13 @@ createPage(_ownInfo.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _home = _interopRequireDefault(__webpack_require__(/*! ./pages/home/home.vue */ 51));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _home = _interopRequireDefault(__webpack_require__(/*! ./pages/home/home.vue */ 81));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_home.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
 
-/***/ 58:
+/***/ 88:
 /*!*****************************************************************************************************************!*\
   !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2Fcatergory%2Fcatergory"} ***!
   \*****************************************************************************************************************/
@@ -7691,25 +7776,25 @@ createPage(_home.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _catergory = _interopRequireDefault(__webpack_require__(/*! ./pages/catergory/catergory.vue */ 59));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _catergory = _interopRequireDefault(__webpack_require__(/*! ./pages/catergory/catergory.vue */ 89));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_catergory.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
 
-/***/ 64:
+/***/ 94:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 65);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 95);
 
 
 /***/ }),
 
-/***/ 65:
+/***/ 95:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -7740,7 +7825,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 66);
+module.exports = __webpack_require__(/*! ./runtime */ 96);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -7757,7 +7842,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 66:
+/***/ 96:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -8489,7 +8574,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 69:
+/***/ 99:
 /*!***********************************************************************************************************************!*\
   !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FshoppingCart%2FshoppingCart"} ***!
   \***********************************************************************************************************************/
@@ -8500,25 +8585,8 @@ if (hadRuntime) {
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _shoppingCart = _interopRequireDefault(__webpack_require__(/*! ./pages/shoppingCart/shoppingCart.vue */ 70));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _shoppingCart = _interopRequireDefault(__webpack_require__(/*! ./pages/shoppingCart/shoppingCart.vue */ 100));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_shoppingCart.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
-
-/***/ 75:
-/*!***********************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/黄椿任文件夹/20190729singleShop/main.js?{"page":"pages%2FpersonCenter%2FpersonCenter"} ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _personCenter = _interopRequireDefault(__webpack_require__(/*! ./pages/personCenter/personCenter.vue */ 76));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_personCenter.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ })

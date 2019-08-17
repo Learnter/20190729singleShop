@@ -58,12 +58,11 @@
 </script>
 
 <style lang="scss">
-	
 
  .ordersBox{
 	 padding:20rpx 20rpx;
 	 .od_item{
-	   height:200rpx;
+	   height:220rpx;
 	   padding-bottom:20rpx;
 	   margin-bottom:20rpx;
 	   border-bottom:1px solid rgba(0,0,0,0.2);
@@ -103,10 +102,11 @@
 			   border-radius:40rpx;
 			   width:150rpx;
 			   height:44rpx;
+         font-size:28rpx;
 			   line-height:44rpx;
 			   border:1px solid #F4A500;
 			   color:#F4A500;
-			   padding:0 18rpx;
+			   padding:0 16rpx;
 			   text-align:center;
 		   }
 	   }

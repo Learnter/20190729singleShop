@@ -9,7 +9,7 @@ swiper {
     white-space: nowrap;
 }
 .wuc-tab-item {
-    height: 90rpx;
+    height: 80rpx;
     display: inline-block;
     line-height: 90rpx;
     margin: 0 10rpx;

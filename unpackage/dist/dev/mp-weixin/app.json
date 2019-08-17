@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/personCenter/memberCenter/memberCenter",
+    "pages/personCenter/invite/invite",
+    "pages/coupon/coupon",
+    "pages/order/order",
     "pages/address/dispatch/dispatch",
     "pages/personCenter/insertAddress/insertAddress",
     "pages/personCenter/notification/notification",
