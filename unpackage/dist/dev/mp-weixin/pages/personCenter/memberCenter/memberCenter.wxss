@@ -119,4 +119,214 @@ page, content {
     height: 180rpx;
     margin-right: 10rpx;
 }
+/* 好货.必抢*/
+.goodShopBox {
+  padding: 0 20rpx;
+  overflow: hidden;
+}
+.goodShopBox .gsb_title {
+    font-size: 32rpx;
+    font-weight: 600;
+    line-height: 1;
+    padding: 16rpx 0;
+    display: inline-block;
+}
+.goodShopBox .scroll-view_H {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 1;
+}
+.goodShopBox .scroll-view_H .gs_list {
+      display: inline-block;
+      width: 100%;
+      height: 200rpx;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item {
+        padding: 0 30rpx;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsli_img {
+          width: 160rpx;
+          height: 160rpx;
+          margin-right: 30rpx;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsic_title {
+            color: #A01B27;
+            font-weight: 600;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsic_text {
+            font-size: 24rpx;
+            color: #B1B1B1;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsict_img {
+            width: 30rpx;
+            height: 30rpx;
+            overflow: hidden;
+            line-height: 1;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsic_buy {
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsic_buy .gsicb_price {
+              color: #B1B1B1;
+              margin-right: 10rpx;
+              position: relative;
+}
+.goodShopBox .scroll-view_H .gs_list .gsl_item .gsi_content .gsic_buy .gsicb_price::before {
+                content: "";
+                width: 100%;
+                border-bottom: 1px solid #B1B1B1;
+                position: absolute;
+                top: 50%;
+}
+/*好物推荐*/
+.goodRecommendation {
+  padding: 0 20rpx;
+  overflow: hidden;
+}
+.goodRecommendation .gr_title {
+    font-size: 32rpx;
+    font-weight: 600;
+    line-height: 1;
+    padding: 16rpx 0;
+    display: inline-block;
+}
+.goodRecommendation .scroll-view_H {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 1;
+}
+.goodRecommendation .scroll-view_H .gr_list {
+      display: inline-block;
+      width: 220rpx;
+      height: 250rpx;
+      margin-right: 16rpx;
+      font-size: 24rpx;
+}
+.goodRecommendation .scroll-view_H .gr_list .grl_img {
+        width: 220rpx;
+        height: 160rpx;
+}
+.goodRecommendation .scroll-view_H .gr_list .gsic_title {
+        color: #A01B27;
+        font-weight: 500;
+}
+.goodRecommendation .scroll-view_H .gr_list .grl_tips {
+        font-weight: 600;
+        line-height: 1.5;
+}
+.goodRecommendation .scroll-view_H .gr_list .grl_price {
+        overflow: hidden;
+        font-size: 24rpx;
+}
+.goodRecommendation .scroll-view_H .gr_list .gsicb_price {
+        color: #B1B1B1;
+        margin-right: 10rpx;
+        position: relative;
+}
+.goodRecommendation .scroll-view_H .gr_list .gsicb_price::before {
+          content: "";
+          width: 100%;
+          border-bottom: 1px solid #B1B1B1;
+          position: absolute;
+          top: 50%;
+}
+/* 广告背景图样式*/
+.advertising {
+  margin: 16rpx 20rpx;
+  height: 140rpx;
+  overflow: hidden;
+}
+/*好物推荐样式*/
+.recommendBox {
+  margin: 0 20rpx;
+}
+.recommendBox .seckill_tips {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 1;
+    padding: 16rpx 0;
+}
+.recommendBox .seckill_tips .seckill_title {
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 32rpx;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      position: relative;
+}
+.recommendBox .seckill_tips .look_more {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #B1B1B1;
+}
+.recommendBox .recommend_shops {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.recommendBox .recommend_shops .recommend_shops_item {
+      width: 49%;
+      margin-bottom: 20rpx;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_img {
+        height: 360rpx;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_content {
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0 16rpx;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_content .recommend_shop_title {
+          font-weight: 700;
+          letter-spacing: 1px;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_content .recommend_shop_price {
+          color: #FF2C2C;
+          line-height: 1.2;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_content .recommend_shop_price .payment_number {
+            font-size: 20rpx;
+            padding-left: 16rpx;
+            color: #000000;
+}
+.recommendBox .recommend_shops .recommend_shops_item .recommend_shop_content .shop_car {
+          width: 50rpx;
+          height: 50rpx;
+}
 
