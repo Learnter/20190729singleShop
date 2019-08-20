@@ -247,14 +247,14 @@ page, content {
 .goodRecommendation .scroll-view_H .gr_list .gsicb_price::before {
           content: "";
           width: 100%;
-          border-bottom: 1px solid #B1B1B1;
+          border-bottom: 2rpx solid #B1B1B1;
           position: absolute;
           top: 50%;
 }
 /* 广告背景图样式*/
 .advertising {
   margin: 16rpx 20rpx;
-  height: 140rpx;
+  height: 120rpx;
   overflow: hidden;
 }
 /*好物推荐样式*/
@@ -268,15 +268,24 @@ page, content {
             justify-content: space-between;
     line-height: 1;
     padding: 16rpx 0;
+    position: relative;
+}
+.recommendBox .seckill_tips::before {
+      position: absolute;
+      content: "";
+      width: 10rpx;
+      background: #F4A500;
+      height: 50%;
+      border-radius: 0 50% 50% 0;
 }
 .recommendBox .seckill_tips .seckill_title {
       font-weight: 700;
       letter-spacing: 1px;
       font-size: 32rpx;
+      margin-left: 16rpx;
       -webkit-align-content: center;
           -ms-flex-line-pack: center;
               align-content: center;
-      position: relative;
 }
 .recommendBox .seckill_tips .look_more {
       -webkit-box-align: center;

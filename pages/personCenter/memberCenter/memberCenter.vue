@@ -341,7 +341,7 @@
             &::before{
               content:"";
               width:100%;
-              border-bottom:1px solid #B1B1B1;
+              border-bottom:2rpx solid #B1B1B1;
               position:absolute;
               top:50%;
             }
@@ -353,7 +353,7 @@
   /* 广告背景图样式*/
   .advertising{
     margin: 16rpx 20rpx;
-    height:140rpx;
+    height:120rpx;
     overflow:hidden;
   }
   
@@ -365,12 +365,22 @@
       justify-content:space-between;
       line-height:1;
       padding:16rpx 0;
+      position:relative;
+      &::before{
+        position:absolute;
+        content:"";
+        width:10rpx;
+        background:$uni-text-color-yellow;
+        height:50%;
+        border-radius:0 50% 50% 0;
+      }
         .seckill_title{
           font-weight:700;
           letter-spacing:1px;
           font-size:32rpx;
+          margin-left:16rpx;
           align-content:center; 
-          position:relative;
+         
         }
       .look_more{
         align-items:center;

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/home/ornament/ornament",
     "pages/personCenter/memberCenter/memberCenter",
     "pages/personCenter/invite/invite",
     "pages/coupon/coupon",
@@ -8,10 +10,10 @@
     "pages/personCenter/insertAddress/insertAddress",
     "pages/personCenter/notification/notification",
     "pages/personCenter/ownInfo/ownInfo",
-    "pages/home/home",
     "pages/catergory/catergory",
     "pages/shoppingCart/shoppingCart",
-    "pages/personCenter/personCenter"
+    "pages/personCenter/personCenter",
+    "pages/home/firstPage/firstPage"
   ],
   "subPackages": [],
   "window": {
