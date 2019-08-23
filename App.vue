@@ -16,6 +16,10 @@
 	/*每个页面公共css */
   @import './common/css/uni.css';
   /* @import './static/font/iconfont.css'; */
+  page{
+    width:100%;
+    height:100%;
+  }
   image{
     width:100%;
   	height:100%;
