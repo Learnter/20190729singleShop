@@ -57,7 +57,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
  .ordersBox{
 	 padding:20rpx 20rpx;

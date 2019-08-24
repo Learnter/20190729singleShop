@@ -156,7 +156,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .swiper-box {
       margin:5px auto;
       height:280rpx;

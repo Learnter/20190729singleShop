@@ -154,7 +154,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   page,content{
     height:100%;
   }

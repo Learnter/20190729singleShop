@@ -24,10 +24,10 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.noticeBox {
+.noticeBox.data-v-6f2a2963 {
   padding: 0 20rpx;
 }
-.noticeBox .notice_item {
+.noticeBox .notice_item.data-v-6f2a2963 {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -38,11 +38,11 @@
     border-bottom: 1px solid rgba(92, 92, 92, 0.2);
     overflow: hidden;
 }
-.noticeBox .notice_item .notice_picture {
+.noticeBox .notice_item .notice_picture.data-v-6f2a2963 {
       width: 100rpx;
       height: 100rpx;
 }
-.noticeBox .notice_item .notice_content {
+.noticeBox .notice_item .notice_content.data-v-6f2a2963 {
       -webkit-box-flex: 1;
       -webkit-flex: 1;
           -ms-flex: 1;
@@ -51,19 +51,19 @@
       overflow: hidden;
       color: #999;
 }
-.noticeBox .notice_item .notice_content .notice_left {
+.noticeBox .notice_item .notice_content .notice_left.data-v-6f2a2963 {
         overflow: hidden;
 }
-.noticeBox .notice_item .notice_content .notice_left .notice_title {
+.noticeBox .notice_item .notice_content .notice_left .notice_title.data-v-6f2a2963 {
           font-size: 32rpx;
           font-weight: 700;
           color: #000000;
 }
-.noticeBox .notice_item .notice_content .notice_right {
+.noticeBox .notice_item .notice_content .notice_right.data-v-6f2a2963 {
         width: 20%;
         text-align: end;
 }
-/deep/.uni-navbar--shadow {
+.data-v-6f2a2963 .uni-navbar--shadow {
   -webkit-box-shadow: none;
           box-shadow: none;
 }

@@ -102,7 +102,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .noticeBox{
     padding:0 20rpx;
     .notice_item{

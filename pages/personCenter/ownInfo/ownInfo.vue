@@ -59,7 +59,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .uni-form-item{
     box-sizing:border-box;
     padding: 20rpx 20rpx 0;

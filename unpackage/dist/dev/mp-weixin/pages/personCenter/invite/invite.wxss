@@ -24,12 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-page, .content {
+page.data-v-aac3deba, .content.data-v-aac3deba {
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-.in_picture {
+.in_picture.data-v-aac3deba {
   width: 230rpx;
   height: 212rpx;
   position: absolute;
@@ -39,7 +39,7 @@ page, .content {
           transform: translateX(-44%);
   top: 140rpx;
 }
-.in_content {
+.in_content.data-v-aac3deba {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -51,7 +51,7 @@ page, .content {
   background: #cd1a1a;
   border-radius: 12rpx;
 }
-.inc_title {
+.inc_title.data-v-aac3deba {
   height: 100rpx;
   line-height: 100rpx;
   text-align: center;
@@ -61,7 +61,7 @@ page, .content {
   letter-spacing: 10rpx;
   padding: 30rpx 0;
 }
-.qr_Code {
+.qr_Code.data-v-aac3deba {
   width: 329rpx;
   height: 329rpx;
   -webkit-box-shadow: 0rpx 4rpx 49rpx 0rpx #37393d;
@@ -70,21 +70,21 @@ page, .content {
   padding: 20rpx;
   background: #fff;
 }
-.inc_vertical {
+.inc_vertical.data-v-aac3deba {
   width: 24rpx;
   height: 187rpx;
 }
-.incv_left {
+.incv_left.data-v-aac3deba {
   position: absolute;
   top: 0;
   left: 40rpx;
 }
-.incv_right {
+.incv_right.data-v-aac3deba {
   position: absolute;
   top: 0;
   right: 40rpx;
 }
-.inc_tips {
+.inc_tips.data-v-aac3deba {
   position: absolute;
   width: 100%;
   top: 105%;
@@ -92,7 +92,7 @@ page, .content {
   font-size: 26rpx;
   text-align: center;
 }
-.inc_btn {
+.inc_btn.data-v-aac3deba {
   position: absolute;
   top: 120%;
   width: 100%;

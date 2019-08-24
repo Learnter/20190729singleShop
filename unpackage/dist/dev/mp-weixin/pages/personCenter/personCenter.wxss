@@ -24,11 +24,11 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.icon_size {
+.icon_size.data-v-9292e534 {
   width: 50rpx;
   height: 50rpx;
 }
-.personContent .order-section .order-item {
+.personContent .order-section .order-item.data-v-9292e534 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -47,7 +47,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.personContent .order-section {
+.personContent .order-section.data-v-9292e534 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -61,7 +61,7 @@
   background: #fff;
   border-radius: 10rpx;
 }
-.personBox {
+.personBox.data-v-9292e534 {
   width: 100%;
   height: 360rpx;
   -webkit-box-sizing: border-box;
@@ -73,38 +73,38 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-.personBox .person_info {
+.personBox .person_info.data-v-9292e534 {
     height: 160rpx;
     padding: 20rpx 0;
     position: relative;
 }
-.personBox .person_info .setup {
+.personBox .person_info .setup.data-v-9292e534 {
       position: absolute;
       right: 0;
       top: 0;
       width: 44rpx;
       height: 44rpx;
 }
-.personBox .person_info .message {
+.personBox .person_info .message.data-v-9292e534 {
       position: absolute;
       right: 0;
       top: 104rpx;
       width: 44rpx;
       height: 44rpx;
 }
-.personBox .person_info .message .ms_badge {
+.personBox .person_info .message .ms_badge.data-v-9292e534 {
         position: absolute;
         right: -6rpx;
         bottom: 50%;
 }
-.personBox .person_info .person_img {
+.personBox .person_info .person_img.data-v-9292e534 {
       width: 140rpx;
       height: 140rpx;
       border-radius: 50%;
       padding: 10rpx;
       background: whitesmoke;
 }
-.personBox .person_info .person_account {
+.personBox .person_info .person_account.data-v-9292e534 {
       -webkit-box-flex: 1;
       -webkit-flex: 1;
           -ms-flex: 1;
@@ -131,22 +131,22 @@
       color: #ffffff;
       letter-spacing: 2rpx;
 }
-.personBox .person_info .person_account .person_edit {
+.personBox .person_info .person_account .person_edit.data-v-9292e534 {
         position: relative;
         font-size: 32rpx;
 }
-.personBox .person_info .person_account .person_edit .editIcon {
+.personBox .person_info .person_account .person_edit .editIcon.data-v-9292e534 {
           width: 36rpx;
           height: 36rpx;
           margin-left: 20rpx;
           vertical-align: middle;
 }
-.personBox .vip_card {
+.personBox .vip_card.data-v-9292e534 {
     margin-top: 44rpx;
     height: 84rpx;
     position: relative;
 }
-.personBox .vip_card .vip_level {
+.personBox .vip_card .vip_level.data-v-9292e534 {
       position: absolute;
       left: 20rpx;
       top: 16rpx;
@@ -158,12 +158,12 @@
           -ms-flex-align: center;
               align-items: center;
 }
-.personBox .vip_card .vip_level .level_icon {
+.personBox .vip_card .vip_level .level_icon.data-v-9292e534 {
         width: 40rpx;
         height: 40rpx;
         margin-right: 20rpx;
 }
-.personBox .vip_card .b-btn {
+.personBox .vip_card .b-btn.data-v-9292e534 {
       position: absolute;
       right: 20rpx;
       top: 16rpx;
@@ -179,11 +179,11 @@
       background: linear-gradient(left, #f9e6af, #ffd465);
       z-index: 1;
 }
-.personContent {
+.personContent.data-v-9292e534 {
   padding: 0 20rpx;
   text-align: center;
 }
-.personContent .personAsset {
+.personContent .personAsset.data-v-9292e534 {
     padding: 20rpx 0;
     height: 120rpx;
     border: 1px solid #EBEBED;
@@ -196,28 +196,28 @@
         -ms-flex-align: center;
             align-items: center;
 }
-.personContent .order-section {
+.personContent .order-section.data-v-9292e534 {
     padding: 28rpx 0;
     margin-top: 20rpx;
     background: #F9F9F9;
 }
-.personContent .order-section .order-item {
+.personContent .order-section .order-item.data-v-9292e534 {
       width: 120rpx;
       height: 120rpx;
       border-radius: 10rpx;
 }
-.personContent .order-section .order-item .order-item-icon {
+.personContent .order-section .order-item .order-item-icon.data-v-9292e534 {
         position: relative;
 }
-.personContent .order-section .order-item .order-item-icon .or_badge {
+.personContent .order-section .order-item .order-item-icon .or_badge.data-v-9292e534 {
           position: absolute;
           right: -40%;
           top: -20rpx;
 }
-.settingBox {
+.settingBox.data-v-9292e534 {
   padding: 20rpx;
 }
-.settingBox .uni-list::before, .settingBox .uni-list::after {
+.settingBox .uni-list.data-v-9292e534::before, .settingBox .uni-list.data-v-9292e534::after {
     display: none;
 }
 

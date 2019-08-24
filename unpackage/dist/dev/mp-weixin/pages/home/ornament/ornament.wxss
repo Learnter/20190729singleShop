@@ -24,7 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.sortBoxs {
+.ornament.data-v-81e9dcd0 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.sortBoxs.data-v-81e9dcd0 {
   height: 80rpx;
   padding: 0 20rpx;
   background: #F2F2F2;
@@ -42,55 +49,159 @@
           justify-content: space-between;
   line-height: 1.2;
 }
-.sortBoxs .sb_left {
+.sortBoxs .sb_left.data-v-81e9dcd0 {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
 }
-.sortBoxs .sb_left .sbls_all {
+.sortBoxs .sb_left .sbls_all.data-v-81e9dcd0 {
       margin-right: 80rpx;
 }
-.sortBoxs .sb_left .sbls_sort {
+.sortBoxs .sb_left .sbls_sort.data-v-81e9dcd0 {
       margin-right: 40rpx;
 }
-.sortBoxs .sb_left .sbls_picture {
+.sortBoxs .sb_left .sbls_picture.data-v-81e9dcd0 {
       width: 20rpx;
       height: 25rpx;
       line-height: 1;
       margin-left: 6rpx;
 }
-.sortBoxs .sb_right {
+.sortBoxs .sb_right.data-v-81e9dcd0 {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
 }
-.sortBoxs .sb_right .sbr_line {
+.sortBoxs .sb_right .sbr_line.data-v-81e9dcd0 {
       width: 4rpx;
       height: 30rpx;
       background: #999999;
       margin: 0 20rpx;
 }
-.sortBoxs .sb_right .sbr_picture {
+.sortBoxs .sb_right .sbr_picture.data-v-81e9dcd0 {
       width: 24rpx;
       height: 24rpx;
       line-height: 1;
       margin-left: 6rpx;
 }
-.shopBoxs {
+/*横排商品列表样式*/
+.shopBoxsH.data-v-81e9dcd0 {
+  position: absolute;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20rpx 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.shopBoxsH .sh_item.data-v-81e9dcd0 {
+    width: 49%;
+    margin-bottom: 10rpx;
+}
+.shopBoxsH .sh_item .shi_img.data-v-81e9dcd0 {
+      width: 100%;
+      height: 300rpx;
+}
+.shopBoxsH .sh_item .shi_content.data-v-81e9dcd0 {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      height: 100rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 10rpx 20rpx;
+}
+.shopBoxsH .sh_item .shi_content .shic_left.data-v-81e9dcd0 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 100%;
+        line-height: 1.5;
+        margin-right: 10rpx;
+        overflow: hidden;
+        color: #454545;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+}
+.shopBoxsH .sh_item .shi_content .shic_left .shic_sum.data-v-81e9dcd0 {
+          color: #999999;
+          font-size: 20rpx;
+          margin-left: 10rpx;
+}
+.shopBoxsH .sh_item .shi_content .shic_left .shic_money.data-v-81e9dcd0 {
+          color: #FF0000;
+          font-size: 26rpx;
+}
+.shopBoxsH .sh_item .shi_content .shic_car.data-v-81e9dcd0 {
+        width: 50rpx;
+        height: 50rpx;
+}
+/* 竖排商品列表样式*/
+.shopBoxsV.data-v-81e9dcd0 {
+  position: absolute;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
   padding: 20rpx 20rpx 0;
 }
-.shopBoxs .sh_item {
+.shopBoxsV .sh_item.data-v-81e9dcd0 {
     height: 180rpx;
     margin-bottom: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
-.shopBoxs .sh_item .shi_img {
+.shopBoxsV .sh_item .shi_img.data-v-81e9dcd0 {
       width: 180rpx;
       height: 180rpx;
       margin-right: 20rpx;
 }
-.shopBoxs .sh_item .shi_content {
+.shopBoxsV .sh_item .shi_content.data-v-81e9dcd0 {
       height: 100%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -109,7 +220,8 @@
       overflow: hidden;
       line-height: 1.2;
 }
-.shopBoxs .sh_item .shi_content .shic_title {
+.shopBoxsV .sh_item .shi_content .shic_title.data-v-81e9dcd0 {
+        color: #454545;
         font-weight: bold;
         line-height: 1.4;
         overflow: hidden;
@@ -119,19 +231,126 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
 }
-.shopBoxs .sh_item .shi_content .shic_sum {
+.shopBoxsV .sh_item .shi_content .shic_sum.data-v-81e9dcd0 {
         color: #999999;
-        font-size: 24rpx;
+        font-size: 20rpx;
 }
-.shopBoxs .sh_item .shi_content .shic_money {
+.shopBoxsV .sh_item .shi_content .shic_money.data-v-81e9dcd0 {
         color: #FF0000;
         font-size: 28rpx;
 }
-.shopBoxs .sh_item .shi_content .shic_car {
+.shopBoxsV .sh_item .shi_content .shic_car.data-v-81e9dcd0 {
         position: absolute;
         right: 0;
         bottom: 0;
         width: 50rpx;
         height: 50rpx;
+}
+.data-v-81e9dcd0 .uni-popup-bottom {
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.data-v-81e9dcd0 .uni-input-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
+.data-v-81e9dcd0 .uni-input-placeholder {
+  text-align: center;
+}
+.mask_content.data-v-81e9dcd0 {
+  width: 100%;
+  text-align: left;
+}
+.mask_content .mac_title.data-v-81e9dcd0 {
+    font-size: 32rpx;
+    color: #454545;
+    font-weight: 700;
+    margin-bottom: 10rpx;
+}
+.mask_content .macx_scroll.data-v-81e9dcd0 {
+    height: 60rpx;
+    line-height: 60rpx;
+    white-space: nowrap;
+    margin-bottom: 10rpx;
+}
+.mask_content .mac_inputs.data-v-81e9dcd0 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 16rpx;
+}
+.mask_content .mac_inputs .mac_line.data-v-81e9dcd0 {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      margin: 0 20rpx;
+      height: 4rpx;
+      background: #999999;
+      border-radius: 4rpx;
+}
+.mask_content .mac_input.data-v-81e9dcd0 {
+    width: 250rpx;
+    height: 50rpx;
+    background: #F1F1F1;
+    border-radius: 10rpx;
+}
+.mask_content .mac_tag.data-v-81e9dcd0 {
+    width: 150rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    color: #666666;
+    background: #F1F1F1;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40rpx;
+    margin-right: 10rpx;
+}
+.mask_content .mac_position.data-v-81e9dcd0 {
+    width: 140rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    overflow: hidden;
+    background: #F1F1F1;
+    text-align: center;
+    border-radius: 10rpx;
+    margin-right: 40rpx;
+}
+.mask_content .mac_location.data-v-81e9dcd0 {
+    width: 120rpx;
+    height: 50rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #F1F1F1;
+    border-radius: 10rpx;
+}
+.mask_content .mac_btton.data-v-81e9dcd0 {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 10rpx 0;
+}
+.mask_content .mac_btton .macb_reset.data-v-81e9dcd0 {
+      width: 150rpx;
+      height: 80rpx;
+      line-height: 80rpx;
+      background: #F6D0D5;
+      margin: 0;
+      border-radius: 0;
+      margin-right: 20rpx;
+}
+.mask_content .mac_btton .macb_confirm.data-v-81e9dcd0 {
+      width: 150rpx;
+      height: 80rpx;
+      line-height: 80rpx;
+      background: #FBA51B;
+      margin: 0;
+      border-radius: 0;
 }
 

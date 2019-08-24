@@ -24,27 +24,27 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.ordersBox {
+.ordersBox.data-v-2f647ff8 {
   padding: 20rpx 20rpx;
 }
-.ordersBox .od_item {
+.ordersBox .od_item.data-v-2f647ff8 {
     height: 220rpx;
     padding-bottom: 20rpx;
     margin-bottom: 20rpx;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.ordersBox .od_item .od_pictrue {
+.ordersBox .od_item .od_pictrue.data-v-2f647ff8 {
       width: 160rpx;
       height: 160rpx;
       margin-right: 20rpx;
 }
-.ordersBox .od_item .odc_title {
+.ordersBox .od_item .odc_title.data-v-2f647ff8 {
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
 }
-.ordersBox .od_item .odc_title .odct_left {
+.ordersBox .od_item .odc_title .odct_left.data-v-2f647ff8 {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
             -ms-flex: 1;
@@ -53,32 +53,32 @@
         font-size: 30rpx;
         overflow: hidden;
 }
-.ordersBox .od_item .odc_title .odct_right {
+.ordersBox .od_item .odc_title .odct_right.data-v-2f647ff8 {
         color: #F4A500;
 }
-.ordersBox .od_item .odc_descript {
+.ordersBox .od_item .odc_descript.data-v-2f647ff8 {
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
       overflow: hidden;
 }
-.ordersBox .od_item .odc_descript .odcd_right {
+.ordersBox .od_item .odc_descript .odcd_right.data-v-2f647ff8 {
         font-weight: 700;
 }
-.ordersBox .od_item .odc_total {
+.ordersBox .od_item .odc_total.data-v-2f647ff8 {
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
       overflow: hidden;
 }
-.ordersBox .od_item .odc_button {
+.ordersBox .od_item .odc_button.data-v-2f647ff8 {
       height: 44rpx;
       margin: 10rpx 0;
       text-align: end;
 }
-.ordersBox .od_item .odc_button .mini-btn {
+.ordersBox .od_item .odc_button .mini-btn.data-v-2f647ff8 {
         border-radius: 40rpx;
         width: 150rpx;
         height: 44rpx;
@@ -89,7 +89,7 @@
         padding: 0 16rpx;
         text-align: center;
 }
-/deep/.selectNav {
+.data-v-2f647ff8 .selectNav {
   font-weight: 700;
   font-size: 30rpx;
   color: #FBA51B;

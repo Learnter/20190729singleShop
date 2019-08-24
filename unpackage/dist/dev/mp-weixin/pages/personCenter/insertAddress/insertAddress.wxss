@@ -24,13 +24,13 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.uni-form-item {
+.uni-form-item.data-v-34e6b48a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20rpx 20rpx 0;
   height: 100rpx;
 }
-.uni-form-item .title {
+.uni-form-item .title.data-v-34e6b48a {
     width: 140rpx;
     line-height: 100rpx;
     text-align: justify;
@@ -41,13 +41,13 @@
         -ms-flex-negative: 0;
             flex-shrink: 0;
 }
-.editAddress {
+.editAddress.data-v-34e6b48a {
   padding: 0 20rpx;
   margin-top: 40rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.editAddress .title {
+.editAddress .title.data-v-34e6b48a {
     width: 140rpx;
     padding: 10rpx 24rpx;
     text-align: justify;
@@ -58,7 +58,7 @@
         -ms-flex-negative: 0;
             flex-shrink: 0;
 }
-.editAddress .textarea {
+.editAddress .textarea.data-v-34e6b48a {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
         -ms-flex: 1;
@@ -69,7 +69,7 @@
     overflow: hidden;
     font-size: 28rpx;
 }
-.input_field {
+.input_field.data-v-34e6b48a {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -91,14 +91,14 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.default-row {
+.default-row.data-v-34e6b48a {
   padding: 20rpx 20rpx;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.default-row .title {
+.default-row .title.data-v-34e6b48a {
     width: 140rpx;
     padding: 10rpx 24rpx;
     text-align: justify;
@@ -109,12 +109,12 @@
         -ms-flex-negative: 0;
             flex-shrink: 0;
 }
-.default-row switch {
+.default-row switch.data-v-34e6b48a {
     -webkit-transform: translateX(16rpx) scale(0.7);
         -ms-transform: translateX(16rpx) scale(0.7);
             transform: translateX(16rpx) scale(0.7);
 }
-.submitBtn {
+.submitBtn.data-v-34e6b48a {
   margin: 20rpx 20rpx;
   height: 80rpx;
   line-height: 80rpx;
@@ -123,10 +123,10 @@
   border-radius: 40rpx;
   letter-spacing: 10rpx;
 }
-.holderStyle {
+.holderStyle.data-v-34e6b48a {
   font-size: 24rpx;
 }
-/deep/.uni-navbar--shadow {
+.data-v-34e6b48a .uni-navbar--shadow {
   -webkit-box-shadow: none;
           box-shadow: none;
 }

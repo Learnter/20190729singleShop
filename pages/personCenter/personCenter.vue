@@ -111,7 +111,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   
   .icon_size{
     width:50rpx;
